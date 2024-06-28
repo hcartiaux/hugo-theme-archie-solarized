@@ -11,6 +11,9 @@
 			{{ .Params.tldr }}
 		</div>{{ end }}
 
+		{{ if isset .Params "toc" }}
+		{{ .TableOfContents }}{{ end }}
+
 		<section class="body">
 			{{ .Content }}
 		</section>
