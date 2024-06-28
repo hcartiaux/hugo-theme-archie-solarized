@@ -68,7 +68,6 @@ h6::before {
 }
 
 a {
-  border-bottom: 3px solid var(--darkMaincolor);
   color: inherit;
 }
 a:hover {
@@ -84,7 +83,6 @@ a:hover {
 }
 
 .tags a {
-  border-bottom: 3px solid var(--darkMaincolor);
 }
 .tags a:hover {
   background-color: var(--darkMaincolor);
