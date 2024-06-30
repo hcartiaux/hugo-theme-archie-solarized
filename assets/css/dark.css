@@ -1,157 +1,163 @@
-body {
-  color: white;
-  background-color: #202124;
+html {
+  color: var(--base00);
 }
-
-::-moz-selection {
-  background: blue;
-  color: #fff;
-  text-shadow: none;
+body{
+  background-color: var(--base02);
 }
 
 ::selection {
-  background: red;
-  color: #fff;
-  text-shadow: none;
+  background: var(--base3);
+  color: var(--base00);
 }
 
 hr {
-  border-top: 3px dotted blue;
-}
-code {
-  background-color: #202135;
-  color: white;
-  text-decoration: bold;
-  padding: 0.1em 0.2em;
-}
-pre {
-  background-color: #272822;
-  line-height: 1.4;
-  overflow-x: auto;
-  padding: 1em;
-}
-blockquote {
-  border-color: blue;
+  border-top: 3px dotted var(--orange);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #ddd;
-}
-h1::before {
-  color: var(--darkMaincolor);
-  content: "# ";
-}
-h2::before {
-  color: var(--darkMaincolor);
-  content: "## ";
-}
-h3::before {
-  color: var(--darkMaincolor);
-  content: "### ";
-}
-h4::before {
-  color: var(--darkMaincolor);
-  content: "#### ";
-}
-h5::before {
-  color: var(--darkMaincolor);
-  content: "##### ";
-}
-h6::before {
-  color: var(--darkMaincolor);
-  content: "###### ";
+blockquote {
+  border-left: 3px solid var(--orange);
+  color: var(--base01);
 }
 
 a {
   color: inherit;
 }
 a:hover {
-  background-color: var(--darkMaincolor);
-  color: black;
+    background-color: var(--base02);
+    color: var(--base1);
 }
 
-.site-description a {
-  color: #ddd;
-}
-.site-description a:hover {
-  color: black;
+/* Images */
+img {
+  border: 3px solid var(--base2);
 }
 
-.tags a {
-}
-.tags a:hover {
-  background-color: var(--darkMaincolor);
-  color: black;
+/* Code blocks */
+code {
+  background-color: var(--base03);
 }
 
-.site-title a {
-  color: white;
-  text-decoration: none !important;
+pre {
+  background-color: var(--base03);
 }
 
-.header nav,
-.footer {
-  border-color: #333;
+.highlight pre ::selection {
+  background: rgba(253, 246, 227, 0.2);
+  color: inherit;
 }
 
-.highlight {
-  background-color: #333;
+pre code {
+  background-color: transparent;
+  color: inherit;
 }
-.soc:hover {
-  color: black;
+
+header .main {
+  color: var(--orange);
 }
-.draft-label {
-  color: var(--darkMaincolor);
-  background-color: blue;
+h1, h2, h3, h4, h5, h6 {
+  color: var(--orange);
 }
+
+h1::before { color: var(--base3); content: '# '; }
+h2::before { color: var(--base3); content: '## '; }
+h3::before { color: var(--base3); content: '### '; }
+h4::before { color: var(--base3); content: '#### '; }
+h5::before { color: var(--base3); content: '##### '; }
+h6::before { color: var(--base3); content: '###### '; }
+
+.meta {
+  color: var(--base00);
+}
+
+/* Footer */
+footer {
+  border-top: 0.4rem double var(--orange);
+}
+
+time {
+  color: var(--base1);
+}
+
+/* Callout */
+.callout {
+  background-color: var(--blue);
+  color: var(--base3);
+}
+
+
+.callout a:hover {
+  background-color: var(--base03);
+  color: var(--blue);
+}
+
+.tags a:hover{
+  color: var(--base03);
+  background-color: var(--base03);
+}
+.soc:hover{
+  color: var(--base3);
+}
+.draft-label{
+  color: var(--orange);
+  background-color: var(--base03);
+}
+.highlight pre code[class*="language-"]::before {
+  background-color: var(--base3);
+  color: var(--base00);
+}
+
 .highlight pre code[class=language-javaScript]::before,
 .highlight pre code[class="language-js"]::before {
   content: "js";
-  background: #f7df1e;
-  color: black;
+  background-color: var(--base3);
+  color: var(--base00);
 }
 .highlight pre code[class*='language-yml']::before,
 .highlight pre code[class*='language-yaml']::before {
   content: 'yaml';
-  background: #f71e6a;
-  color: white;
+  background-color: var(--base3);
+  color: var(--base00);
 }
 .highlight pre code[class*='language-shell']::before,
 .highlight pre code[class*='language-bash']::before,
 .highlight pre code[class*='language-sh']::before {
   content: 'shell';
-  background: green;
-  color:white
+  background-color: var(--base3);
+  color: var(--base00);
 }
 .highlight pre code[class*='language-json']::before{
   content: 'json';
-  background: dodgerblue;
-   color: #000000
+  background-color: var(--base3);
+  color: var(--base00);
 }
 .highlight pre code[class*='language-python']::before,
 .highlight pre code[class*='language-py']::before {
   content: 'py';
-  background: blue;
-  color: yellow ;
+  background-color: var(--base3);
+  color: var(--base00);
 }
 .highlight pre code[class*='language-css']::before{
   content: 'css';
-  background: cyan;
-  color: black ;
+  background-color: var(--base3);
+  color: var(--base00);
 }
 .highlight pre code[class*='language-go']::before{
   content: 'Go';
-  background: cyan;
-  color: royalblue ;
+  background-color: var(--base3);
+  color: var(--base00);
 }
 .highlight pre code[class*='language-md']::before,
 .highlight pre code[class*='language-md']::before{
   content: 'Markdown';
-  background: royalblue;
-  color: whitesmoke ;
+  background-color: var(--base3);
+  color: var(--base00);
+}
+
+/* table */
+table th{
+  border: 1px dotted var(--base2);
+}
+
+table td{
+  border: 1px dotted var(--base2);
 }
