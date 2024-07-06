@@ -69,6 +69,10 @@ h6::before { color: var(--base3); content: '###### '; }
   color: var(--base00);
 }
 
+.toc {
+  background-color: var(--base03);
+}
+
 /* Footer */
 footer {
   border-top: 0.4rem double var(--orange);

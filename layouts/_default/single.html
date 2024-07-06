@@ -12,7 +12,10 @@
 		</div>{{ end }}
 
 		{{ if isset .Params "toc" }}
-		{{ .TableOfContents }}{{ end }}
+		<div class="toc">
+		<strong>Table of contents:</strong>
+		{{ .TableOfContents }}
+		</div>{{ end }}
 
 		<section class="body">
 			{{ .Content }}
