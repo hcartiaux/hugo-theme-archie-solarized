@@ -224,7 +224,7 @@ article .title {
 
 /* Callout */
 .callout {
-  background-color: var(--blue);
+  background-color: var(--cyan);
   color: var(--base03);
   padding: 1em;
 }

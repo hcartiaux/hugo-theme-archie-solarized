@@ -92,7 +92,7 @@ time {
 
 /* Callout */
 .callout {
-  background-color: var(--blue);
+  background-color: var(--cyan);
   color: var(--base3);
 }
 .callout a:hover {
