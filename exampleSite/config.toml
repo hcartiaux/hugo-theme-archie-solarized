@@ -1,30 +1,39 @@
 baseURL = "https://example.com"
 languageCode = "en-us"
-title = "Archie"
-theme="archie"
-copyright = "© Athul"
+title = "Archie-solarized"
+paginate = 5
+theme="archie-solarized"
+copyright = "© H. Cartiaux"
 pygmentsstyle = "monokai"
+pygmentsStyle = "solarized-dark"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 [params]
-	mode="auto"
+	mode="toggle"
 	useCDN=false
-	subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
-
-[[params.social]]
-name = "GitHub"
-icon = "github"
-url = "https://github.com/athul/archie"
-
-[[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/athulcajay/"
+	subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/hcartiaux/hugo-theme-archie-solarized)"
+    mathjax = false # enable MathJax support
+    katex = true # enable KaTeX support
 
 [[params.social]]
 name = "GitLab"
 icon = "gitlab"
-url = "https://gitlab.com/athul/"
+url = "https://gitlab.com/hcartiaux/"
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/hcartiaux/hugo-theme-archie-solarized"
+
+[[params.social]]
+name = "Linkedin"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/hyacinthecartiaux/"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/hcartiaux/"
 
 [[menu.main]]
 name = "Home"

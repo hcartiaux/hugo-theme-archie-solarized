@@ -3,7 +3,7 @@
 
 name = "archie-solarized"
 license = "MIT"
-licenselink = "https://github.com/athul/archie/blob/master/LICENSE"
+licenselink = "https://github.com/hcartiaux/hugo-theme-archie-solarized/blob/master/LICENSE"
 description = "Archie is a minimal and clean theme for hugo with a markdown-ish UI."
 homepage = "https://github.com/hcartiaux/hugo-theme-archie-solarized"
 tags = ["blog","simple","responsive","minimal","tags","personal","clean","shortcodes"]
@@ -11,8 +11,8 @@ features = ["blog", "Clean and minimal", "Responsive", "Syntax highlighting",]
 min_version = "0.41"
 
 [author]
-  name = "Athul Cyriac Ajay"
-  homepage = "https://github.com/athul"
+  name = "Hyacinthe Cartiaux"
+  homepage = "https://github.com/hcartiaux"
 
 [original]
   author = "Athul Cyriac Ajay"

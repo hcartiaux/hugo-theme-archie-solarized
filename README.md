@@ -1,11 +1,12 @@
-# Archie - Hugo theme
-Archie is a minimal and clean theme for hugo with a markdown-ish UI.
+# Archie-solarized - Hugo theme
 
-Forked from [Ezhil Theme](https://github.com/vividvilla/ezhil)
+Archie-solarized is a minimal and clean theme for hugo with a markdown-ish UI.
+
+Forked from [Ahtul Archie Theme](https://github.com/athul/archie) and converted to [Solarized color scheme](https://ethanschoonover.com/solarized/).
 
 ## Demo
 
-[Check the Demo](https://athul.github.io/archie/) hosted on GitHub Pages :smile: . You can find the source code to that in the `site` branch of this repository
+[Check the Demo](https://hcartiaux.github.io/), I use this theme for my sysadmin notes :smile:
 
 ![](/images/theme.png)
 ![](/images/archie-dark.png)
@@ -24,7 +25,7 @@ In your Hugo website directory, create a new folder named theme and clone the re
 ```bash
 $ mkdir themes
 $ cd themes
-$ git clone https://github.com/athul/archie.git
+$ git clone https://github.com/hcartiaux/hugo-theme-archie-solarized
 ```
 Edit the `config.toml` file with `theme="archie"`
 For more information read the official [setup guide](https://gohugo.io/installation/) of Hugo.
@@ -42,11 +43,13 @@ date:
 tldr: (optional)
 draft: true/false (optional)
 tags: [tag names] (optional)
+toc: true/false (optional)
 ---
 ```
 
 ## Credits
-Forked from [Ezhil Theme](https://github.com/vividvilla/ezhil) and Licensed under MIT License
+
+Forked from [Ahtul Archie Theme](https://github.com/athul/archie), which is forked from [Ezhil Theme](https://github.com/vividvilla/ezhil) and Licensed under MIT License
 Inspired by design of blog.jse.li
 
 ----
@@ -67,45 +70,42 @@ Note: CSS files should be placed under the `assets` directory e.g. `assets/css/f
 ## Config of the Demo Site
 
 ```toml
-baseURL = "https://athul.github.io/archie/"
+baseURL = "https://example.com"
 languageCode = "en-us"
-title = "Archie"
-theme="archie"
-copyright = "© Athul"
-# Code Highlight
+title = "Archie-solarized"
+paginate = 5
+theme="archie-solarized"
+copyright = "© H. Cartiaux"
 pygmentsstyle = "monokai"
+pygmentsStyle = "solarized-dark"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
-
-disqusShortname = "yourDisqusShortname"
-
-paginate=3 # articles per page
-
 [params]
-	mode="auto" # color-mode → light,dark,toggle or auto
-	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
-	subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
-	mathjax = true # enable MathJax support
-	katex = true # enable KaTeX support
-
-# Social Tags
-
-[[params.social]]
-name = "GitHub"
-icon = "github"
-url = "https://github.com/athul/archie"
-
-[[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/athulcajay/"
+    mode="toggle"
+    useCDN=false
+    subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/hcartiaux/hugo-theme-archie-solarized)"
+    mathjax = false # enable MathJax support
+    katex = true # enable KaTeX support
 
 [[params.social]]
 name = "GitLab"
 icon = "gitlab"
-url = "https://gitlab.com/athul/"
+url = "https://gitlab.com/hcartiaux/"
 
-# Main menu Items
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/hcartiaux/hugo-theme-archie-solarized"
+
+[[params.social]]
+name = "Linkedin"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/hyacinthecartiaux/"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/hcartiaux/"
 
 [[menu.main]]
 name = "Home"
@@ -129,6 +129,3 @@ weight = 4
 ```
 ---
 
-If you liked my work please consider supporting me on [BuymeACoffee](https://www.buymeacoffee.com/athulca)
-
-<a href="https://www.buymeacoffee.com/athulca" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" height="41" width="174" ></a>
