@@ -1,8 +1,24 @@
 html {
   color: var(--base00);
 }
+
+a {
+  color: inherit;
+}
+a:hover {
+    background-color: var(--base02);
+    color: var(--base1);
+}
+
 body{
   background-color: var(--base02);
+}
+.body a {
+  color: var(--base1);
+}
+.body a:hover {
+  color: var(--base2);
+  background-color: var(--base03);
 }
 
 ::selection {
@@ -17,14 +33,6 @@ hr {
 blockquote {
   border-left: 3px solid var(--orange);
   color: var(--base01);
-}
-
-a {
-  color: inherit;
-}
-a:hover {
-    background-color: var(--base02);
-    color: var(--base1);
 }
 
 /* Images */
@@ -58,12 +66,12 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--orange);
 }
 
-h1::before { color: var(--base3); content: '# '; }
-h2::before { color: var(--base3); content: '## '; }
-h3::before { color: var(--base3); content: '### '; }
-h4::before { color: var(--base3); content: '#### '; }
-h5::before { color: var(--base3); content: '##### '; }
-h6::before { color: var(--base3); content: '###### '; }
+h1::before { color: var(--base0); content: '# '; }
+h2::before { color: var(--base0); content: '## '; }
+h3::before { color: var(--base0); content: '### '; }
+h4::before { color: var(--base0); content: '#### '; }
+h5::before { color: var(--base0); content: '##### '; }
+h6::before { color: var(--base0); content: '###### '; }
 
 .meta {
   color: var(--base00);
@@ -87,20 +95,23 @@ time {
   background-color: var(--blue);
   color: var(--base3);
 }
-
-
 .callout a:hover {
+  color: var(--base2);
   background-color: var(--base03);
-  color: var(--blue);
 }
 
+.tags a{
+  color: var(--base1);
+}
 .tags a:hover{
-  color: var(--base03);
+  color: var(--base2);
   background-color: var(--base03);
 }
+
 .soc:hover{
   color: var(--base3);
 }
+
 .draft-label{
   color: var(--orange);
   background-color: var(--base03);
