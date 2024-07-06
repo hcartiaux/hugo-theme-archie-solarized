@@ -71,6 +71,7 @@ blockquote {
 ul {
   list-style: none;
   padding-left: 2ch;
+  font-family: 'Fira Sans', sans-serif;
 }
 ul li {
   text-indent: -2ch;
