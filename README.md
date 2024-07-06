@@ -17,6 +17,7 @@ Forked from [Ahtul Archie Theme](https://github.com/athul/archie) and converted 
 - Auto Dark Mode(based on system theme)
 - Dark/Light Mode toggle
 - tl:dr; frontamatter
+- table of contents
 - Cache busting for CSS files
 - Disqus Comments
 
