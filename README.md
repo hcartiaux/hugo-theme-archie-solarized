@@ -25,7 +25,7 @@ In your Hugo website directory, create a new folder named theme and clone the re
 ```bash
 $ mkdir themes
 $ cd themes
-$ git clone https://github.com/hcartiaux/hugo-theme-archie-solarized
+$ git clone https://github.com/hcartiaux/hugo-theme-archie-solarized archie-solarized
 ```
 Edit the `config.toml` file with `theme="archie"`
 For more information read the official [setup guide](https://gohugo.io/installation/) of Hugo.
