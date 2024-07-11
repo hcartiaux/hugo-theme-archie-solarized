@@ -80,7 +80,6 @@ title = "Archie-solarized"
 paginate = 5
 theme="archie-solarized"
 copyright = "© H. Cartiaux"
-pygmentsstyle = "monokai"
 pygmentsStyle = "solarized-dark"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
