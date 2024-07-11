@@ -2,14 +2,17 @@
 
 Archie-solarized is a minimal and clean theme for hugo with a markdown-ish UI.
 
-Forked from [Ahtul Archie Theme](https://github.com/athul/archie) and converted to [Solarized color scheme](https://ethanschoonover.com/solarized/).
+Forked from [Ahtul Archie Theme](https://github.com/athul/archie), it supports a dark and light mode strictly based on the [Solarized color scheme](https://ethanschoonover.com/solarized/), and adds support for tables of contents.
+
+The solarized color scheme is ideal for switching between dark and light modes, the contrast between the background and foreground is symmetrical.
+It lowers the average brightness, but preserve the hues, and overall is less aggressive to my eyes than the traditional terminal color scheme.
 
 ## Demo
 
 [Check the Demo](https://hcartiaux.github.io/), I use this theme for my sysadmin notes :smile:
 
-![](/images/theme.png)
-![](/images/archie-dark.png)
+![](https://raw.githubusercontent.com/hcartiaux/hugo-theme-archie-solarized/master/images/theme.png)
+![](https://raw.githubusercontent.com/hcartiaux/hugo-theme-archie-solarized/master/images/archie-dark.png)
 ## Feature
 - Google Analytics Script
 - Callouts

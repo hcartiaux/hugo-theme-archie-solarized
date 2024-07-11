@@ -4,11 +4,13 @@
 name = "archie-solarized"
 license = "MIT"
 licenselink = "https://github.com/hcartiaux/hugo-theme-archie-solarized/blob/master/LICENSE"
-description = "Archie is a minimal and clean theme for hugo with a markdown-ish UI."
+description = "Archie-solarized is a minimal and clean theme for hugo with a markdown-ish UI and solarized color scheme."
+
 homepage = "https://github.com/hcartiaux/hugo-theme-archie-solarized"
-tags = ["blog","simple","responsive","minimal","tags","personal","clean","shortcodes"]
-features = ["blog", "Clean and minimal", "Responsive", "Syntax highlighting",]
-min_version = "0.41"
+demosite = "https://hcartiaux.github.io/"
+
+tags = ["blog","simple","responsive","minimal","tags","personal","clean","shortcodes","solarized","dark","light"]
+features = ["blog", "Clean and minimal", "Responsive", "Syntax highlighting", "toc"]
 
 [author]
   name = "Hyacinthe Cartiaux"
