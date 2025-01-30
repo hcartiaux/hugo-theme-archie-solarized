@@ -77,7 +77,6 @@ Note: CSS files should be placed under the `assets` directory e.g. `assets/css/f
 baseURL = "https://example.com"
 languageCode = "en-us"
 title = "Archie-solarized"
-paginate = 5
 theme="archie-solarized"
 copyright = "© H. Cartiaux"
 pygmentsStyle = "solarized-dark"
@@ -89,6 +88,8 @@ pygmentscodefencesguesssyntax = true
     subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/hcartiaux/hugo-theme-archie-solarized)"
     mathjax = false # enable MathJax support
     katex = true # enable KaTeX support
+[pagination]
+  pagerSize = 5
 
 [[params.social]]
 name = "GitLab"

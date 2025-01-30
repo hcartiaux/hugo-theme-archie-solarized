@@ -1,7 +1,6 @@
 baseURL = "https://example.com"
 languageCode = "en-us"
 title = "Archie-solarized"
-paginate = 5
 theme="archie-solarized"
 copyright = "© H. Cartiaux"
 pygmentsstyle = "monokai"
@@ -14,6 +13,8 @@ pygmentscodefencesguesssyntax = true
 	subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/hcartiaux/hugo-theme-archie-solarized)"
     mathjax = false # enable MathJax support
     katex = true # enable KaTeX support
+[pagination]
+  pagerSize = 5
 
 [[params.social]]
 name = "GitLab"
