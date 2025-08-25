@@ -68,6 +68,9 @@ blockquote {
   padding-left: 1em;
 }
 
+ol {
+  font-family: 'Fira Sans', sans-serif;
+}
 ul {
   list-style: none;
   padding-left: 2ch;
