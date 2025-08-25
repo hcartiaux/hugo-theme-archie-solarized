@@ -117,6 +117,7 @@ figure h4::before {
 code {
   background-color: var(--base2);
   padding: .1em .2em;
+  font-family: 'Roboto Mono', monospace, monospace;
 }
 
 pre {
@@ -124,6 +125,7 @@ pre {
   line-height: 1.4;
   overflow-x: auto;
   padding: 1em;
+  font-family: 'Roboto Mono', monospace, monospace;
 }
 
 .highlight pre ::selection {
@@ -136,6 +138,7 @@ pre code {
   color: inherit;
   font-size: 100%;
   padding: 0;
+  font-family: 'Roboto Mono', monospace, monospace;
 }
 
 /* Containers */
