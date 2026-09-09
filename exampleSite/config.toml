@@ -7,14 +7,16 @@ pygmentsstyle = "monokai"
 pygmentsStyle = "solarized-dark"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
-[params]
-	mode="toggle"
-	useCDN=false
-	subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/hcartiaux/hugo-theme-archie-solarized)"
-    mathjax = false # enable MathJax support
-    katex = true # enable KaTeX support
+
 [pagination]
   pagerSize = 5
+
+[params]
+  mode="toggle"
+  useCDN=false
+  subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/hcartiaux/hugo-theme-archie-solarized)"
+  mathjax = false # enable MathJax support
+  katex = true # enable KaTeX support
 
 [[params.social]]
 name = "GitLab"
