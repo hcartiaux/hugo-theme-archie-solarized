@@ -16,7 +16,7 @@ description: Here is a demo of all shortcodes available in Hugo.
 
 ## Tweet
 
-{{< tweet user="GoHugoIO" id="877500564405444608" >}}
+{{< x user="GoHugoIO" id="877500564405444608" >}}
 
 ## Vimeo
 
