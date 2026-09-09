@@ -75,7 +75,7 @@ Note: CSS files should be placed under the `assets` directory e.g. `assets/css/f
 
 ```toml
 baseURL = "https://example.com"
-languageCode = "en-us"
+locale = "en-us"
 title = "Archie-solarized"
 theme="archie-solarized"
 copyright = "© H. Cartiaux"
