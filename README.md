@@ -11,9 +11,11 @@ It lowers the average brightness, but preserve the hues, and overall is less agg
 
 [Check the Demo](https://hcartiaux.github.io/), I use this theme for my sysadmin notes :smile:
 
-![](https://raw.githubusercontent.com/hcartiaux/hugo-theme-archie-solarized/master/images/theme.png)
-![](https://raw.githubusercontent.com/hcartiaux/hugo-theme-archie-solarized/master/images/archie-dark.png)
+![Light theme](https://raw.githubusercontent.com/hcartiaux/hugo-theme-archie-solarized/master/images/theme.png)
+![Dark theme](https://raw.githubusercontent.com/hcartiaux/hugo-theme-archie-solarized/master/images/archie-dark.png)
+
 ## Feature
+
 - Google Analytics Script
 - Callouts
 - Tags
@@ -25,12 +27,15 @@ It lowers the average brightness, but preserve the hues, and overall is less agg
 - Disqus Comments
 
 ## Installation
+
 In your Hugo website directory, create a new folder named theme and clone the repo
+
 ```bash
 $ mkdir themes
 $ cd themes
 $ git clone https://github.com/hcartiaux/hugo-theme-archie-solarized archie-solarized
 ```
+
 Edit the `config.toml` file with `theme="archie"`
 For more information read the official [setup guide](https://gohugo.io/installation/) of Hugo.
 
@@ -38,7 +43,9 @@ If you encounter any issues with Google Analytics, update Hugo to v0.125.0 or
 later and make sure your using the latest version of the theme.
 
 ## Writing Posts
+
 Create a new `.md` file in the *content/posts* folder
+
 ```yml
 ---
 title: Title of the post
@@ -61,13 +68,14 @@ Inspired by design of blog.jse.li
 ## Config Options
 
 ### Custom CSS
+
 Custom CSS files can be included though the `customcss` config parameter.
 
 Note: CSS files should be placed under the `assets` directory e.g. `assets/css/first.css`.
 
 ```toml
 [params]
-	customcss = ["css/first.css", "css/second.css"]
+  customcss = ["css/first.css", "css/second.css"]
 ```
 
 
@@ -82,14 +90,16 @@ copyright = "© H. Cartiaux"
 pygmentsStyle = "solarized-dark"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
-[params]
-    mode="toggle"
-    useCDN=false
-    subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/hcartiaux/hugo-theme-archie-solarized)"
-    mathjax = false # enable MathJax support
-    katex = true # enable KaTeX support
+
 [pagination]
   pagerSize = 5
+
+[params]
+  mode="toggle"
+  useCDN=false
+  subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/hcartiaux/hugo-theme-archie-solarized)"
+  mathjax = false # enable MathJax support
+  katex = true # enable KaTeX support
 
 [[params.social]]
 name = "GitLab"
@@ -131,5 +141,4 @@ name = "Tags"
 url = "/tags"
 weight = 4
 ```
----
-
+----
